@@ -12,6 +12,9 @@
     gap: 10px;
 
 }
+.nav-logo img{
+    transform: rotate(-15deg);
+}
 .nav-logo p{
     color: #171717;
     font-size: 38px;

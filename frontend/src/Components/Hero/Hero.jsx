@@ -3,26 +3,28 @@ import './Hero.css'
 import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
+import jordan_image from '../Assets/jordan.jpg'
+
 export const Hero = () => {
   return (
     <div className='hero'>
         <div className="hero-left">
-            <h2>Nouveaux Arrivages ONLY</h2>
+            <h2>Nouveaux Arrivages</h2>
             <div>
                 <div className="hero-hand-icon">
-                    <p>new</p>
+                    <p>La nouvelle</p>
                     <img src={hand_icon}alt="" />
                 </div>
                 <p>collection</p>
-                <p>for everyone</p>
+                <p>est enfin arrivée</p>
             </div>
             <div className="hero-latest-btn">
-                <div>Dernière Collection</div>
+                <div>Découvrir</div>
                 <img src={arrow_icon} alt="" />
             </div>
         </div>
         <div className="hero-right">
-            <img src={hero_image} alt="" />
+            <img src={jordan_image} alt="" />
         </div>
     </div>
   )
