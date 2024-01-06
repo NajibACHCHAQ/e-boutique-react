@@ -7,10 +7,10 @@ export const Item = (Props) => {
         <p>{Props.name}</p>
         <div className="item-prices">
             <div className="item-price-new">
-                {Props.new_price}
+                ${Props.new_price}
             </div>
             <div className="item-price-old">
-            {Props.old_price}
+                ${Props.old_price}
             </div>
         </div>
     </div>
