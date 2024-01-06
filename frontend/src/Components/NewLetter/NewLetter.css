@@ -8,7 +8,7 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background:linear-gradient(180deg,#fde1ff 0%, #e1ffea22 60%);
+    background:linear-gradient(180deg,#ede8b7 0%, #e1ffea22 60%);
     gap: 30px; 
 
 }
@@ -53,4 +53,11 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+.newletter div button:hover{
+
+    background: rgba(0, 0, 0, 0.872);
+    color: rgba(255, 255, 255, 0.831);
+    transition: 0.3s;
+
 }
