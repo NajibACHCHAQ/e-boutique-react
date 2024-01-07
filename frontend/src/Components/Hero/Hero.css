@@ -48,6 +48,13 @@
     color: white;
     font-size: 22px;
     font-weight: 500;
+    cursor: pointer;
+}
+.hero-latest-btn:hover{
+
+    background: #ff4141e2;
+    color: white;
+
 }
 
 .hero-right{

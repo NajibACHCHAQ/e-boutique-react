@@ -39,6 +39,12 @@
 
 
 }
+.offers-left button:hover{
+
+    background: #ff4141e2;
+    color: white;
+
+}
 
 .offers-right{
     flex: 1;
