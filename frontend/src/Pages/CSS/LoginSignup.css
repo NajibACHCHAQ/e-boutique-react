@@ -1,16 +1,18 @@
 .loginsignup{
     width: 100%;
-    height: 80vh;
+    height: fit-content;
     background: #e3f6fe;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .loginsignup-container{
     width: 500px;
-    height: fit-content;
+    height: auto;
     background: white;
     margin: auto;
     padding: 40px 60px;
     border-radius: 10px;
+    
 
 }
 .loginsignup-container h1{
